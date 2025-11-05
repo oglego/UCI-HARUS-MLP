@@ -1,8 +1,8 @@
 import torch
 from torch.utils.data import DataLoader
-from python.dataset import UCIHAR
-from python.model import HARMLP
-from python.utils import accuracy
+from data_loader.dataset import UCIHAR
+from model.model import HARMLP
+from eval.utils import accuracy
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
