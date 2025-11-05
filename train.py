@@ -2,9 +2,9 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from python.dataset import UCIHAR
-from python.model import HARMLP
-from python.utils import accuracy
+from dataset import UCIHAR
+from model import HARMLP
+from utils import accuracy
 
 # Hyperparameters
 batch_size = 64
